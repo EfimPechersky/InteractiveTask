@@ -1,0 +1,4 @@
+module InteractiveTask
+typeinfo appInteractiveTask.qmltypes
+prefer :/
+

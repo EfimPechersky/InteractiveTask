@@ -1,0 +1,14 @@
+-rootPath
+D:/InteractiveTask/InteractiveTask
+-cmake-output
+-output-file
+D:/InteractiveTask/InteractiveTask/build/Felgo_SDK_Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appInteractiveTask.cmake
+-importPath
+D:/InteractiveTask/InteractiveTask/build/Felgo_SDK_Desktop_Qt_6_4_1_MinGW_64_bit-Debug/InteractiveTask
+-importPath
+D:/InteractiveTask/InteractiveTask/build/Felgo_SDK_Desktop_Qt_6_4_1_MinGW_64_bit-Debug
+-importPath
+D:/Felgo/Felgo/mingw_64/./qml
+-qrcFiles
+D:/InteractiveTask/InteractiveTask/build/Felgo_SDK_Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.rcc/qmake_InteractiveTask.qrc
+D:/InteractiveTask/InteractiveTask/build/Felgo_SDK_Desktop_Qt_6_4_1_MinGW_64_bit-Debug/.rcc/qmake_InteractiveTask_copy.qrc
