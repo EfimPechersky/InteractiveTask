@@ -31,6 +31,7 @@ App {
                     Layout.fillWidth: true
                     color:"gainsboro"
                     Text{
+                        id:headertext
                         text:"Header"
                         anchors.horizontalCenter: parent.horizontalCenter
                         anchors.verticalCenter:parent.verticalCenter
@@ -48,6 +49,7 @@ App {
                     border.color:"gainsboro"
                     border.width:5
                     Text{
+                        id:contenttext
                         text:"Content"
                         anchors.horizontalCenter: parent.horizontalCenter
                         anchors.verticalCenter:parent.verticalCenter
@@ -75,9 +77,11 @@ App {
                     MouseArea{
                         anchors.fill: parent
                         onClicked: {
-                            btn1.color="darkgray"
-                            btn2.color='gray'
-                            btn3.color="gray"
+                            btn1.opacity=1.0
+                            btn2.opacity=0.5
+                            btn3.opacity=0.5
+                            headertext.text="Header 1"
+                            contenttext.text="Iten 1 content"
                         }
                     }
                 }
@@ -94,9 +98,11 @@ App {
                     MouseArea{
                         anchors.fill: parent
                         onClicked: {
-                            btn2.color="darkgray"
-                            btn1.color='gray'
-                            btn3.color="gray"
+                            btn2.opacity=1.0
+                            btn1.opacity=0.5
+                            btn3.opacity=0.5
+                            headertext.text="Header 2"
+                            contenttext.text="Iten 2 content"
                         }
                     }
                 }
@@ -114,9 +120,11 @@ App {
                     MouseArea{
                         anchors.fill: parent
                         onClicked: {
-                            btn3.color="darkgray"
-                            btn2.color='gray'
-                            btn1.color="gray"
+                            btn3.opacity=1.0
+                            btn2.opacity=0.5
+                            btn1.opacity=0.5
+                            headertext.text="Header 3"
+                            contenttext.text="Iten 3 content"
                         }
                     }
                 }
